@@ -1,0 +1,14 @@
+#!/bin/bash -x
+
+
+var=$(( RANDOM%2 ))
+isFULLTIME=1
+isPARTTIME=2
+if [ $var==1 ]
+
+then
+echo "Emp is full time"
+elif  [ $var==2]
+echo "Emp is part time"
+fi
+

@@ -1,0 +1,14 @@
+#!/bin/bash -x
+
+fori in{1..5}
+
+
+do
+     num=$(( RANDOM%92+10 ))
+     echo "Number: " $num
+     sum=$(( $sum + $num))
+done
+
+avg=$(( $sum/5 ))
+echo "sum: " $sum
+echo "avg: " $avg

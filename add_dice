@@ -1,0 +1,8 @@
+#!/bin/bash -x
+
+var1=$(( RANDOM%1+6 ))
+var2=$(( RANDOM%1+5 ))
+
+z=$(( $var1 + $var2 ))
+
+echo $z

@@ -1,0 +1,10 @@
+#!/bin/bash -x
+
+if [ -d linuxcontent]
+then
+echo "file exits"
+else
+mkdir -v linuxcontent
+
+fi
+

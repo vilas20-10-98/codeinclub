@@ -1,0 +1,10 @@
+#!/bin/bash -x
+
+if [ -z USERSECREAT ]
+then 
+echo " USERSECREAT has not set " 
+else 
+export USERSECREAT "dh23xjaa23"
+echo "USERSECREAT= "dh23xjaa23"has set "
+fi
+ 
